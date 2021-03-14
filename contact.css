@@ -1,0 +1,128 @@
+html{
+scroll-behavior: smooth;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.header{
+display: flex;
+flex-direction: row;
+list-style-type: none;
+border: 1px black solid;
+}
+
+.nav {
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li .nav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+  text-decoration: none;
+}
+
+li .nav:hover {
+  background-color: #111;
+}
+
+.aboutpic {
+ display: block;
+ text-align: center;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+form{
+display: flex;
+position: relative;
+left: 25%;;
+flex-direction: column;
+width: 50%;
+}
+
+textarea{
+  padding:50px;
+  flex-basis: 55%;
+  align-self: center;
+}
+
+input[type=text]{
+  margin: 15px;
+  width: 100%;
+  left: 10;
+  align-self: center;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid blue;
+
+}
+
+button{
+  display: relative;
+  left: auto;
+  width: 150%;
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 700px) {
+
+  .header{
+  border: 1px black solid;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav {
+  padding: 8px;
+  background-color: dark grey;
+}
+
+li {
+  display: inline-block;
+  float: left;
+}
+
+li .nav {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li .nav:hover {
+  background-color: #111;
+  }
